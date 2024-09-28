@@ -100,7 +100,7 @@ Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the
 
 
 <p>
-Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk and other info. Select a default email that will receive emails from customers who submit tickets.
+Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk and other info. 
 </p> 
 <br /> 
 
