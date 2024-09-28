@@ -50,10 +50,14 @@ After connecting to the virtual machine, you will begin enabling the Internet In
 </p>
 <br />
 
-<img width="701" alt="osTicket3" src="https://github.com/user-attachments/assets/69773982-4b84-4368-a55c-67640188a80e">
+![image](https://github.com/user-attachments/assets/2378df14-d711-4ec4-bfb2-ace2f053ab70)
+
 
 
 
 <p>
-  
+From the “osTicket-Installation-Files” folder, we will install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi and the Rewrite Module (rewrite_amd64_en-US.msi). Then create the directory C:\PHP. After creating the directory, we will unzip the PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder then install the VC_redist.x86.exe and the MySQL 5.5.62 (mysql-5.5.62-win32.msi).   
 </p>
+<br /> 
+
+![image](https://github.com/user-attachments/assets/693b975f-3b29-46ff-89b0-4abd71a3e67b)
