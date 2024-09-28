@@ -77,5 +77,39 @@ To install the osTicket, extractadn copy the "upload" folder into  “c:\inetpub
 </p> 
 <br /> 
 
-![image](https://github.com/user-attachments/assets/629df2b0-8f72-4e47-8db7-e59d35922400)
+![image](https://github.com/user-attachments/assets/629df2b0-8f72-4e47-8db7-e59d35922400) 
+
+
+
+<p>
+Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
+</p> 
+<br /> 
+
+![image](https://github.com/user-attachments/assets/c739e267-8109-4ec5-83c4-a26d951cac12) 
+
+
+
+<p>
+Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php Assign permissions to ost-config.php Disable inheritance->Removeall New Permissions->Everyone->all
+</p> 
+<br /> 
+
+![osTicket4](https://github.com/user-attachments/assets/441cd9a4-bf41-48b1-bd4e-70cb75294838) 
+
+
+
+<p>
+Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets.
+</p> 
+<br /> 
+
+![osTicket5](https://github.com/user-attachments/assets/18733e94-a506-40ce-aa8f-a5c12e6deb52) 
+
+
+
+
+<p>
+Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!” Congratulations, hopefully it is installed with no errors! Clean up Delete: C:\inetpub\wwwroot\osTicket\setup Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+</p>
 
