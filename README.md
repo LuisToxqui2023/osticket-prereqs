@@ -54,10 +54,28 @@ After connecting to the virtual machine, you will begin enabling the Internet In
 
 
 
-
 <p>
 From the “osTicket-Installation-Files” folder, we will install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi and the Rewrite Module (rewrite_amd64_en-US.msi). Then create the directory C:\PHP. After creating the directory, we will unzip the PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder then install the VC_redist.x86.exe and the MySQL 5.5.62 (mysql-5.5.62-win32.msi).   
 </p>
 <br /> 
 
-![image](https://github.com/user-attachments/assets/693b975f-3b29-46ff-89b0-4abd71a3e67b)
+![image](https://github.com/user-attachments/assets/693b975f-3b29-46ff-89b0-4abd71a3e67b) 
+
+
+
+<p>
+To install the osTicket, extractadn copy the "upload" folder into  “c:\inetpub\wwwroot” then rename the foldr to osTicket
+</p> 
+<br /> 
+
+![image](https://github.com/user-attachments/assets/e62aafbf-094b-48cf-83bb-89db3ed7b659) 
+
+
+
+<p>
+ Next, open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.  
+</p> 
+<br /> 
+
+![image](https://github.com/user-attachments/assets/629df2b0-8f72-4e47-8db7-e59d35922400)
+
