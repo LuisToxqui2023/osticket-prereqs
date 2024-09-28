@@ -64,7 +64,7 @@ From the “osTicket-Installation-Files” folder, we will install PHP Manager f
 
 
 <p>
-To install the osTicket, extractadn copy the "upload" folder into  “c:\inetpub\wwwroot” then rename the foldr to osTicket
+To install the osTicket, extract and copy the "upload" folder into  “c:\inetpub\wwwroot” then renamed the folder to osTicket
 </p> 
 <br /> 
 
@@ -73,7 +73,7 @@ To install the osTicket, extractadn copy the "upload" folder into  “c:\inetpub
 
 
 <p>
- Next, open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.  
+ Next, open IIS Manager and restart the server. Once inside IIS manager, go to Sites->Default->osTicket on the right, click "Browse*.80" and from there your default browser should open osTicket webserver.  
 </p> 
 <br /> 
 
@@ -82,7 +82,7 @@ To install the osTicket, extractadn copy the "upload" folder into  “c:\inetpub
 
 
 <p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
+Go back into IIS manager and enable some extensions. To do this you will have to go to Sites->Default->osTicket and double click on PHP manager. Click on "Disable or enable an extension" then enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
 </p> 
 <br /> 
 
@@ -110,6 +110,6 @@ Afterwards continue setting up osTicket in the browser (click continue) then you
 
 
 <p>
-Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!” Congratulations, hopefully it is installed with no errors! Clean up Delete: C:\inetpub\wwwroot\osTicket\setup Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+Finally, continue setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1. Then click “Install Now!”. it is finally installed with no errors! Clean up Delete: C:\inetpub\wwwroot\osTicket\setup Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
 </p>
 
